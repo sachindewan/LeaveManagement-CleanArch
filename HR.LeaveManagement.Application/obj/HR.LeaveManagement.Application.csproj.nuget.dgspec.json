@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "projectName": "HR.LeaveManagement.Application",
+        "projectPath": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\SachinKumar\\.nuget\\packages\\",
+        "outputPath": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SachinKumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repository.vnerd.com/artifactory/api/nuget/nuget-pluralsight": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectName": "HR.LeaveManagement.Domain",
+        "projectPath": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\SachinKumar\\.nuget\\packages\\",
+        "outputPath": "C:\\MyStuff\\HR.LeaveManagement.Clean-f5c61ce348aed7f6688eaba511e0fd35211d19a3\\HR.LeaveManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SachinKumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repository.vnerd.com/artifactory/api/nuget/nuget-pluralsight": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
